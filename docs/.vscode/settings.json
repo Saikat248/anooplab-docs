@@ -1,0 +1,4 @@
+{
+	"python.pythonPath": "/home/saikat/venv/documentation/bin/python3",
+	"restructuredtext.confPath": "${workspaceFolder}"
+}
