@@ -23,9 +23,9 @@ and move the tar file there and untar it.
 .. code-block:: bash
 	
 	mkdir -p ~/apps
-	mv orca_4_2_1_linux_x86-64_shared_openmpi411.tar.xz ~/apps
+	mv orca_4_2_1_linux_x86-64_shared_openmpi314.tar.xz ~/apps
 	cd ~/apps
-	tar -xvf orca_4_2_1_linux_x86-64_shared_openmpi411.tar.xz
+	tar -xvf orca_4_2_1_linux_x86-64_shared_openmpi314.tar.xz
 
 
 Installation
@@ -76,11 +76,11 @@ Here is a sample modulefile(``421``)
 	prepend-path    PATH    /home/<username>/apps/orca_4_2_1_linux_x86-64_shared_openmpi314
 	prepend-path    LD_LIBRARY_PATH /home/<username>/apps/orca_4_2_1_linux_x86-64_shared_openmpi314
 
-Important points to remember:
+.. note::
 
-- ``module-tryadd`` will load the gcc (version 8.3.0) and openmpi (version 3.1.4) these two are pre-installed.
-- ``setenv ORCAPATH`` path to your orca directory. In this case it is located  under ``apps`` subdirectory inside the ``\home``
-- ``prepend-path`` usually the same directory required for ORCA
+	- ``module try-add`` will load the gcc (version 8.3.0) and openmpi (version 3.1.4) these two are pre-installed.
+	- ``setenv ORCAPATH`` path to your orca directory. In this case it is located  under ``apps`` subdirectory inside the ``\home``
+	- ``prepend-path`` usually the same directory required for ORCA
 
 Modify these variables according to your account 
 
@@ -119,6 +119,16 @@ it should print out
 
 Congratulation !! You have successfully installed ORCA in your account.
 
+Follow the same steps if you want to install a different version
+Create a new module file in the same location and add the ``paths`` accordingly.
+Also, don't forget to load the new version in the submit script.
+
+Still having problem ? Don't worry, create an issue with proper error output `here <https://github.com/Saikat248/anooplab-docs/issues>`_.
+
+We are happy to help!!
+
+
+
 Submit Script for SLURM in paramshakti
 --------------------------------------
 
@@ -133,7 +143,7 @@ Go to your ``scratch`` directory and submit a test job. Here is a sample submit 
 	#SBATCH -p standard-low     # name of the partition: available options "standard, standard-low, gpu, hm"
 	#SBATCH -n 16   	        # no of processes or tasks
 	#SBATCH -t 1:00:00          # walltime in HH:MM:SS, Max value 72:00:00
-	
+
 	#list of modules you want to use, for example
 	module load orca/421
 	#name of the executable

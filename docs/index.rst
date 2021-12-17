@@ -37,11 +37,22 @@ Currently we can offer help for these softwares
 - Psi4
 - CFour 
 - Mopac
+
+External Libraries/Packages
+===========================
+
+- Conda Python
+- OpenMPI
+- OpenBLAS
+- Scalapack
+- Lapack
+
+
   
 .. toctree::
    :maxdepth: 3
    :caption: SLURM 
-   
+
    basic_slurm
 
 
@@ -52,7 +63,11 @@ Currently we can offer help for these softwares
    orca/ORCAsetup
 
 
+.. toctree::
+   :maxdepth: 3
+   :caption: External Libs
 
+   python/condasetup
 
 
 
