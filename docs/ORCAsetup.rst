@@ -34,7 +34,7 @@ Please visit the OpenMPI installtion for building it from source. In this tutori
 OpenMPI in paramshakti for ORCA.  
 
 Module File setup
-=================
+-----------------
 
 Packages in paramshakti are usually maintained by using the ``module`` system. You can easily maintain multiple version
 of same/different packages with this system.

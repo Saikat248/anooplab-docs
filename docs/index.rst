@@ -25,7 +25,7 @@ Currently we can offer help for these softwares
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Quickstart
 
    ORCAsetup
