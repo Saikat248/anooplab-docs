@@ -13,8 +13,10 @@ Here are some links
 
 `<https://slurm.schedmd.com/overview.html>`_
 
-You should also follow the IIT Kgp hpc website specially for the paramshakti configuration and quick start
-guide.
+.. note::
 
-`<http://www.hpc.iitkgp.ac.in>`_
+	You should also follow the IIT Kgp hpc website specially for the paramshakti configuration and quick start
+	guide.
+
+	`<http://www.hpc.iitkgp.ac.in>`_
 

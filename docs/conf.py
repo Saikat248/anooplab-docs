@@ -18,9 +18,9 @@
 # -- Project information -----------------------------------------------------
 import sphinx_rtd_theme
 
-project = 'anooplab'
-copyright = '2021, saikat'
-author = 'saikat'
+project = 'AnoopLab Wiki'
+copyright = '2021, Saikat'
+author = 'Saikat'
 
 
 # -- General configuration ---------------------------------------------------
