@@ -78,6 +78,7 @@ External Libraries/Packages
    
    license
    credits
+   how_to_contribute
 
 ..
   * :ref:`genindex`

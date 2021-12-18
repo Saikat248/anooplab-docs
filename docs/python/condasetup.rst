@@ -75,7 +75,7 @@ and deactivate it by
 	conda deactivate
 
 
-You can also install different environment environment with required package.
+You can also install different environment with required package.
 Details documentation is `here <https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>`_.
 
 .. tip:: 
