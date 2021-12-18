@@ -76,9 +76,10 @@ External Libraries/Packages
    :maxdepth: 3
    :caption: Misc
    
+   how_to_contribute
    license
    credits
-   how_to_contribute
+   
 
 ..
   * :ref:`genindex`

@@ -12,6 +12,7 @@ Installation
 ------------
 
 Clone the github repo
+
 .. code:: console
 
 	$ git clone https://github.com/Saikat248/anooplab-docs.git
@@ -39,6 +40,6 @@ It will create a ``_build`` directory and the ``html`` files
 	$ firefox _build/html/index.html
 
 The whole website will run locally.
-Go ahead start editing the documents and before pushing make sure if the build is successful.
+Go ahead start editing the documents and before pushing make sure the build is successful.
 
 Enjoy !!
