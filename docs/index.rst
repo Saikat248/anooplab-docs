@@ -65,8 +65,7 @@ External Libraries/Packages
 
 .. toctree::
    :maxdepth: 3
-   :caption: External Libs
-
+   :caption: Installation Guides
    xtb/xtbsetup
 
 
