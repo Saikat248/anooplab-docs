@@ -67,7 +67,7 @@ External Libraries/Packages
    :maxdepth: 3
    :caption: External Libs
 
-   python/condasetup
+   xtb/xtbsetup
 
 
 
@@ -75,7 +75,8 @@ External Libraries/Packages
    :maxdepth: 3
    :caption: External Libs
 
-   xtb/xtbsetup
+   python/condasetup
+
 
 
 .. toctree::
