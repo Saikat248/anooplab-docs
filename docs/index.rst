@@ -17,7 +17,7 @@ Indian Institute of Technology Kharagpur, India.
 This preliminary guide is created for the following reasons
 
 - Help  beginners to quick start computational chemistry
-- Set up different softwares in the `IIT Kgp <http://www.iitkgp.ac.in/>`_ supercomputuing facility.  
+- Set up different softwares in the `IIT KGP <http://www.iitkgp.ac.in/>`_ supercomputing facility.  
 - Some essential tutorials about linux and programming 
 
 **Want to help?**
