@@ -5,5 +5,7 @@ anooplab-docs
    :alt: Documentation Status
    :target: https://xtb-docs.readthedocs.io
 
+
+
 Currently this website is hosted `here <https://anooplab-docs.readthedocs.io/en/latest/>`_
 
