@@ -61,15 +61,7 @@ External Libraries/Packages
    :caption: Installation Guides
 
    orca/ORCAsetup
-
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Installation Guides
-
    xtb/xtbsetup
-
-
 
 .. toctree::
    :maxdepth: 3
