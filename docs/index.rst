@@ -32,7 +32,7 @@ Currently we can offer help for these softwares
 - Gaussian
 - ORCA 
 - Turbomole
-- XTB 
+- xtb 
 - `PyAR <https://github.com/anooplab/pyar>`_
 - Psi4
 - CFour 

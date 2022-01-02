@@ -1,7 +1,7 @@
 .. _xtbsetup:
 
 -----
-XTB
+xtb
 -----
 
 This guide deal with setup XTB package in
