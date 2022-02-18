@@ -102,7 +102,7 @@ try this in command line
 
 .. code-block:: bash
 
-	module load module load orca/421
+	module load orca/421
 
 if no error is coming out try 
 
