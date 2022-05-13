@@ -68,6 +68,7 @@ External Libraries/Packages
    :caption: External Libs
 
    python/condasetup
+   openmpi/OPENMPIsetup
 
 
 

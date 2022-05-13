@@ -16,7 +16,7 @@ Getting the Program
 
 Goto the `orca <https://orcaforum.kofo.mpg.de/app.php/portal>`_
 forum website. Register yourself if you are new or login.
-Download the preffered version for Linux x86 and copy it 
+Download the preferred version for Linux x86 and copy it 
 to your account. Now create a ``apps/`` directory inside your ``home``
 and move the tar file there and untar it.
 
@@ -152,3 +152,5 @@ Go to your ``scratch`` directory and submit a test job. Here is a sample submit 
 	$exe opt.inp >& result.out
 
 	
+:Date: 17.12.2021
+:Authors: - saikat R
